@@ -1,8 +1,11 @@
 #!/bin/bash
 
 cd ..
-rr build
-mkdir build && cd build
+rm -rf build
+mkdir build 
+cd build
+cmake ..
+make
 
 
 
